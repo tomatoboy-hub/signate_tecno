@@ -1,0 +1,8 @@
+pandas 
+numpy 
+lightning==2.0.9
+timm
+matplotlib
+torch
+torchvision
+torchmetrics

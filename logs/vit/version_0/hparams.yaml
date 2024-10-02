@@ -1,0 +1,4 @@
+data_aug: RandAug
+learning_rate: 0.001
+optimizer_name: SGD
+weight_decay: 1.0e-05
