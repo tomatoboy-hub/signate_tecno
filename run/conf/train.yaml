@@ -1,0 +1,58 @@
+hydra:
+  job:
+    name: train
+    chdir: true
+  run:
+    dir: ${dir.output_dir}/${hydra.job.name}/${exp_no}/${exp_name}
+  sweep:
+    dir: ${dir.output_dir}/${hydra.job.name}/${exp_no}/${exp_name}
+    subdir: run${hydra.job.num}
+
+defaults:
+  - _self_
+  - dir: local
+  - model: RSNA24Timm
+  - split: 5
+
+project_id: a
+project: RSNA2024-${project_id}
+seed: 42
+exp_no: 001
+exp_name: ${exp_no}-a
+num_folds: 5
+img_size: 512
+img_resize: 384
+weight_path: None
+in_chans: 30
+  
+# training
+epoch: 10
+batch_size: 8
+num_workers: 16
+accelerator: auto
+use_amp: true
+debug: false
+gradient_clip_val: 1.0
+accumulate_grad_batches: 1
+monitor: val_loss
+monitor_mode: min
+check_val_every_n_epoch: 1
+patience: 5
+
+# loss_fn
+loss_fn: CrossEntropyLoss
+
+# optimizer
+optimizer:
+  lr: 0.001
+  
+# scheduler
+scheduler:
+  num_warmup_steps: 0
+
+# augmentation
+aug:
+  prob: 0.75
+
+# wandb
+wandb_entity: hayatarou-ay
