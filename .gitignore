@@ -3,3 +3,4 @@ input
 *.csv
 ckpt
 logs
+*.bin

@@ -1,0 +1,369 @@
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (448, 448), 'timm_model_name': 'eva02_large_patch14_448.mim_m38m_ft_in22k_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (448, 448), 'timm_model_name': 'eva02_large_patch14_448.mim_m38m_ft_in22k_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (448, 448), 'timm_model_name': 'eva02_large_patch14_448.mim_m38m_ft_in22k_in1k', 'pretrained': True, 'n_fold': 3, 'epochs': 4, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (384, 384), 'timm_model_name': 'timm/vit_mediumd_patch16_reg4_gap_384.sbb2_e200_in12k_ft_in1k', 'pretrained': True, 'n_fold': 3, 'epochs': 4, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (384, 384), 'timm_model_name': 'vit_base_patch16_clip_384.laion2b_ft_in1k', 'pretrained': True, 'n_fold': 3, 'epochs': 4, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (384, 384), 'timm_model_name': 'vit_tiny_patch16_384.augreg_in21k_ft_in1k', 'pretrained': True, 'n_fold': 3, 'epochs': 4, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (384, 384), 'timm_model_name': 'vit_tiny_patch16_384.augreg_in21k_ft_in1k', 'pretrained': True, 'n_fold': 3, 'epochs': 4, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'vit_base_patch16_224', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'vit_base_patch16_224', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.0719  avg_val_loss: 0.0273
+Epoch 1 - Train Acc: 0.9734  Train Auc: 0.9955  Valid Acc: 0.9899  Valid Auc: 0.9996
+Epoch 2 - avg_train_loss: 0.0238  avg_val_loss: 0.0570
+Epoch 2 - Train Acc: 0.9915  Train Auc: 0.9996  Valid Acc: 0.9804  Valid Auc: 0.9992
+Training complete in 1h 41m 20s
+Best Score: 0.9996
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.0718  avg_val_loss: 0.0253
+Epoch 1 - Train Acc: 0.9737  Train Auc: 0.9956  Valid Acc: 0.9906  Valid Auc: 0.9996
+Epoch 2 - avg_train_loss: 0.0216  avg_val_loss: 0.0373
+Epoch 2 - Train Acc: 0.9925  Train Auc: 0.9996  Valid Acc: 0.9862  Valid Auc: 0.9992
+Training complete in 1h 41m 29s
+Best Score: 0.9996
+========== CV ==========
+CV: 0.9996
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'vit_base_patch16_224', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'vit_base_patch16_224', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0)}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.4952  avg_val_loss: 0.3873
+Epoch 1 - avg_train_loss: 0.4952  avg_val_loss: 0.3873
+Epoch 1 - Train Acc: 0.7500  Train Auc: 0.8347  Valid Acc: 0.8279  Valid Auc: 0.9205
+Epoch 1 - Train Acc: 0.7500  Train Auc: 0.8347  Valid Acc: 0.8279  Valid Auc: 0.9205
+Epoch 2 - avg_train_loss: 0.3483  avg_val_loss: 0.3007
+Epoch 2 - avg_train_loss: 0.3483  avg_val_loss: 0.3007
+Epoch 2 - Train Acc: 0.8494  Train Auc: 0.9242  Valid Acc: 0.8751  Valid Auc: 0.9456
+Epoch 2 - Train Acc: 0.8494  Train Auc: 0.9242  Valid Acc: 0.8751  Valid Auc: 0.9456
+Training complete in 1h 42m 15s
+Training complete in 1h 42m 15s
+Best Score: 0.9456
+Best Score: 0.9456
+========== fold: 1 training ==========
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.5040  avg_val_loss: 0.4522
+Epoch 1 - avg_train_loss: 0.5040  avg_val_loss: 0.4522
+Epoch 1 - Train Acc: 0.7400  Train Auc: 0.8261  Valid Acc: 0.7807  Valid Auc: 0.9084
+Epoch 1 - Train Acc: 0.7400  Train Auc: 0.8261  Valid Acc: 0.7807  Valid Auc: 0.9084
+Epoch 2 - avg_train_loss: 0.3716  avg_val_loss: 0.3184
+Epoch 2 - avg_train_loss: 0.3716  avg_val_loss: 0.3184
+Epoch 2 - Train Acc: 0.8363  Train Auc: 0.9132  Valid Acc: 0.8653  Valid Auc: 0.9393
+Epoch 2 - Train Acc: 0.8363  Train Auc: 0.9132  Valid Acc: 0.8653  Valid Auc: 0.9393
+Training complete in 1h 41m 36s
+Training complete in 1h 41m 36s
+Best Score: 0.9393
+Best Score: 0.9393
+========== CV ==========
+========== CV ==========
+CV: 0.9425
+CV: 0.9425
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'vit_base_patch16_224', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'vit_base_patch16_224', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.0864  avg_val_loss: 0.0334
+Epoch 1 - avg_train_loss: 0.0864  avg_val_loss: 0.0334
+Epoch 1 - Train Acc: 0.9724  Train Auc: 0.9952  Valid Acc: 0.9901  Valid Auc: 0.9995
+Epoch 1 - Train Acc: 0.9724  Train Auc: 0.9952  Valid Acc: 0.9901  Valid Auc: 0.9995
+Epoch 2 - avg_train_loss: 0.0278  avg_val_loss: 0.0250
+Epoch 2 - avg_train_loss: 0.0278  avg_val_loss: 0.0250
+Epoch 2 - Train Acc: 0.9915  Train Auc: 0.9993  Valid Acc: 0.9926  Valid Auc: 0.9996
+Epoch 2 - Train Acc: 0.9915  Train Auc: 0.9993  Valid Acc: 0.9926  Valid Auc: 0.9996
+Training complete in 1h 44m 52s
+Training complete in 1h 44m 52s
+Best Score: 0.9996
+Best Score: 0.9996
+========== fold: 1 training ==========
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.0797  avg_val_loss: 0.0309
+Epoch 1 - avg_train_loss: 0.0797  avg_val_loss: 0.0309
+Epoch 1 - Train Acc: 0.9749  Train Auc: 0.9957  Valid Acc: 0.9914  Valid Auc: 0.9994
+Epoch 1 - Train Acc: 0.9749  Train Auc: 0.9957  Valid Acc: 0.9914  Valid Auc: 0.9994
+Epoch 2 - avg_train_loss: 0.0291  avg_val_loss: 0.0255
+Epoch 2 - avg_train_loss: 0.0291  avg_val_loss: 0.0255
+Epoch 2 - Train Acc: 0.9912  Train Auc: 0.9994  Valid Acc: 0.9923  Valid Auc: 0.9996
+Epoch 2 - Train Acc: 0.9912  Train Auc: 0.9994  Valid Acc: 0.9923  Valid Auc: 0.9996
+Training complete in 1h 45m 1s
+Training complete in 1h 45m 1s
+Best Score: 0.9996
+Best Score: 0.9996
+========== CV ==========
+========== CV ==========
+CV: 0.9995
+CV: 0.9995
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'vit_base_patch16_224', 'pretrained': False, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'vit_base_patch16_224', 'pretrained': False, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 5, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.6577  avg_val_loss: 0.6015
+Epoch 1 - avg_train_loss: 0.6577  avg_val_loss: 0.6015
+Epoch 1 - Train Acc: 0.5896  Train Auc: 0.6313  Valid Acc: 0.6474  Valid Auc: 0.7330
+Epoch 1 - Train Acc: 0.5896  Train Auc: 0.6313  Valid Acc: 0.6474  Valid Auc: 0.7330
+Epoch 2 - avg_train_loss: 0.5594  avg_val_loss: 0.4859
+Epoch 2 - avg_train_loss: 0.5594  avg_val_loss: 0.4859
+Epoch 2 - Train Acc: 0.6878  Train Auc: 0.7724  Valid Acc: 0.7507  Valid Auc: 0.8438
+Epoch 2 - Train Acc: 0.6878  Train Auc: 0.7724  Valid Acc: 0.7507  Valid Auc: 0.8438
+Training complete in 1h 45m 24s
+Training complete in 1h 45m 24s
+Best Score: 0.8438
+Best Score: 0.8438
+========== fold: 1 training ==========
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.6696  avg_val_loss: 0.6119
+Epoch 1 - avg_train_loss: 0.6696  avg_val_loss: 0.6119
+Epoch 1 - Train Acc: 0.5709  Train Auc: 0.5975  Valid Acc: 0.6437  Valid Auc: 0.7242
+Epoch 1 - Train Acc: 0.5709  Train Auc: 0.5975  Valid Acc: 0.6437  Valid Auc: 0.7242
+Epoch 2 - avg_train_loss: 0.5716  avg_val_loss: 0.5156
+Epoch 2 - avg_train_loss: 0.5716  avg_val_loss: 0.5156
+Epoch 2 - Train Acc: 0.6801  Train Auc: 0.7628  Valid Acc: 0.7312  Valid Auc: 0.8238
+Epoch 2 - Train Acc: 0.6801  Train Auc: 0.7628  Valid Acc: 0.7312  Valid Auc: 0.8238
+Training complete in 1h 45m 4s
+Training complete in 1h 45m 4s
+Best Score: 0.8238
+Best Score: 0.8238
+========== CV ==========
+========== CV ==========
+CV: 0.8334
+CV: 0.8334
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (384, 384), 'timm_model_name': 'tf_efficientnetv2_l.in21k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (384, 384), 'timm_model_name': 'tf_efficientnetv2_l.in21k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (384, 384), 'timm_model_name': 'tf_efficientnetv2_l.in21k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.1138  avg_val_loss: 0.0242
+Epoch 1 - avg_train_loss: 0.1138  avg_val_loss: 0.0242
+Epoch 1 - avg_train_loss: 0.1138  avg_val_loss: 0.0242
+Epoch 1 - Train Acc: 0.9617  Train Auc: 0.9931  Valid Acc: 0.9929  Valid Auc: 0.9997
+Epoch 1 - Train Acc: 0.9617  Train Auc: 0.9931  Valid Acc: 0.9929  Valid Auc: 0.9997
+Epoch 1 - Train Acc: 0.9617  Train Auc: 0.9931  Valid Acc: 0.9929  Valid Auc: 0.9997
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (384, 384), 'timm_model_name': 'tf_efficientnetv2_l.in21k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.1138  avg_val_loss: 0.0242
+Epoch 1 - Train Acc: 0.9617  Train Auc: 0.9931  Valid Acc: 0.9929  Valid Auc: 0.9997
+Epoch 2 - avg_train_loss: 0.0158  avg_val_loss: 0.0110
+Epoch 2 - Train Acc: 0.9956  Train Auc: 0.9997  Valid Acc: 0.9961  Valid Auc: 1.0000
+Training complete in 3h 29m 47s
+Best Score: 1.0000
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.1119  avg_val_loss: 0.0212
+Epoch 1 - Train Acc: 0.9615  Train Auc: 0.9936  Valid Acc: 0.9938  Valid Auc: 0.9998
+Epoch 2 - avg_train_loss: 0.0147  avg_val_loss: 0.0151
+Epoch 2 - Train Acc: 0.9958  Train Auc: 0.9996  Valid Acc: 0.9961  Valid Auc: 0.9999
+Training complete in 3h 30m 25s
+Best Score: 0.9999
+========== CV ==========
+CV: 0.9999
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.1443  avg_val_loss: 0.0389
+Epoch 1 - Train Acc: 0.9547  Train Auc: 0.9885  Valid Acc: 0.9888  Valid Auc: 0.9989
+Epoch 2 - avg_train_loss: 0.0348  avg_val_loss: 0.0234
+Epoch 2 - Train Acc: 0.9892  Train Auc: 0.9988  Valid Acc: 0.9923  Valid Auc: 0.9997
+Training complete in 0h 57m 11s
+Best Score: 0.9997
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.1440  avg_val_loss: 0.0445
+Epoch 1 - Train Acc: 0.9532  Train Auc: 0.9887  Valid Acc: 0.9865  Valid Auc: 0.9985
+Epoch 2 - avg_train_loss: 0.0353  avg_val_loss: 0.0322
+Epoch 2 - Train Acc: 0.9892  Train Auc: 0.9990  Valid Acc: 0.9899  Valid Auc: 0.9996
+Training complete in 1h 7m 15s
+Best Score: 0.9996
+========== CV ==========
+CV: 0.9994
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.2967  avg_val_loss: 0.0583
+Epoch 1 - Train Acc: 0.8935  Train Auc: 0.9545  Valid Acc: 0.9856  Valid Auc: 0.9983
+Epoch 2 - avg_train_loss: 0.1683  avg_val_loss: 0.0351
+Epoch 2 - Train Acc: 0.9392  Train Auc: 0.9859  Valid Acc: 0.9902  Valid Auc: 0.9992
+Training complete in 0h 54m 16s
+Best Score: 0.9992
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.2919  avg_val_loss: 0.0540
+Epoch 1 - Train Acc: 0.8973  Train Auc: 0.9560  Valid Acc: 0.9862  Valid Auc: 0.9986
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75, 'cutmix_prob': 0.5}
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.2967  avg_val_loss: 0.0583
+Epoch 1 - Train Acc: 0.8935  Train Auc: 0.9545  Valid Acc: 0.9856  Valid Auc: 0.9983
+Epoch 2 - avg_train_loss: 0.1683  avg_val_loss: 0.0351
+Epoch 2 - Train Acc: 0.9392  Train Auc: 0.9859  Valid Acc: 0.9902  Valid Auc: 0.9992
+Training complete in 0h 51m 37s
+Best Score: 0.9992
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.2919  avg_val_loss: 0.0540
+Epoch 1 - Train Acc: 0.8973  Train Auc: 0.9560  Valid Acc: 0.9862  Valid Auc: 0.9986
+Epoch 2 - avg_train_loss: 0.1681  avg_val_loss: 0.0319
+Epoch 2 - Train Acc: 0.9401  Train Auc: 0.9863  Valid Acc: 0.9913  Valid Auc: 0.9995
+Training complete in 0h 51m 39s
+Best Score: 0.9995
+========== CV ==========
+CV: 0.9994
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'swin_small_patch4_window7_224.ms_in22k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.1443  avg_val_loss: 0.0389
+Epoch 1 - Train Acc: 0.9547  Train Auc: 0.9885  Valid Acc: 0.9888  Valid Auc: 0.9989
+Epoch 2 - avg_train_loss: 0.0348  avg_val_loss: 0.0234
+Epoch 2 - Train Acc: 0.9892  Train Auc: 0.9988  Valid Acc: 0.9923  Valid Auc: 0.9997
+Training complete in 0h 53m 58s
+Best Score: 0.9997
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.1440  avg_val_loss: 0.0445
+Epoch 1 - Train Acc: 0.9532  Train Auc: 0.9887  Valid Acc: 0.9865  Valid Auc: 0.9985
+Epoch 2 - avg_train_loss: 0.0353  avg_val_loss: 0.0322
+Epoch 2 - Train Acc: 0.9892  Train Auc: 0.9990  Valid Acc: 0.9899  Valid Auc: 0.9996
+Training complete in 0h 58m 2s
+Best Score: 0.9996
+========== CV ==========
+CV: 0.9994
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'timm/efficientvit_m2.r224_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'timm/efficientvit_m2.r224_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'timm/efficientvit_m2.r224_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'efficientvit_l3.r224_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'efficientvit_l3.r224_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'efficientvit_l3.r224_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'tf_efficientnetv2_s.in21k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'tf_efficientnetv2_s.in21k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'image_size': (224, 224), 'timm_model_name': 'tf_efficientnetv2_s.in21k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.2519  avg_val_loss: 0.0895
+Epoch 1 - avg_train_loss: 0.2519  avg_val_loss: 0.0895
+Epoch 1 - avg_train_loss: 0.2519  avg_val_loss: 0.0895
+Epoch 1 - Train Acc: 0.9017  Train Auc: 0.9657  Valid Acc: 0.9759  Valid Auc: 0.9980
+Epoch 1 - Train Acc: 0.9017  Train Auc: 0.9657  Valid Acc: 0.9759  Valid Auc: 0.9980
+Epoch 1 - Train Acc: 0.9017  Train Auc: 0.9657  Valid Acc: 0.9759  Valid Auc: 0.9980
+Epoch 2 - avg_train_loss: 0.0448  avg_val_loss: 0.0441
+Epoch 2 - avg_train_loss: 0.0448  avg_val_loss: 0.0441
+Epoch 2 - avg_train_loss: 0.0448  avg_val_loss: 0.0441
+Epoch 2 - Train Acc: 0.9849  Train Auc: 0.9985  Valid Acc: 0.9869  Valid Auc: 0.9993
+Epoch 2 - Train Acc: 0.9849  Train Auc: 0.9985  Valid Acc: 0.9869  Valid Auc: 0.9993
+Epoch 2 - Train Acc: 0.9849  Train Auc: 0.9985  Valid Acc: 0.9869  Valid Auc: 0.9993
+Training complete in 0h 50m 44s
+Training complete in 0h 50m 44s
+Training complete in 0h 50m 44s
+Best Score: 0.9993
+Best Score: 0.9993
+Best Score: 0.9993
+========== fold: 1 training ==========
+========== fold: 1 training ==========
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.2605  avg_val_loss: 0.1026
+Epoch 1 - avg_train_loss: 0.2605  avg_val_loss: 0.1026
+Epoch 1 - avg_train_loss: 0.2605  avg_val_loss: 0.1026
+Epoch 1 - Train Acc: 0.8985  Train Auc: 0.9629  Valid Acc: 0.9674  Valid Auc: 0.9979
+Epoch 1 - Train Acc: 0.8985  Train Auc: 0.9629  Valid Acc: 0.9674  Valid Auc: 0.9979
+Epoch 1 - Train Acc: 0.8985  Train Auc: 0.9629  Valid Acc: 0.9674  Valid Auc: 0.9979
+Epoch 2 - avg_train_loss: 0.0461  avg_val_loss: 0.0402
+Epoch 2 - avg_train_loss: 0.0461  avg_val_loss: 0.0402
+Epoch 2 - avg_train_loss: 0.0461  avg_val_loss: 0.0402
+Epoch 2 - Train Acc: 0.9845  Train Auc: 0.9986  Valid Acc: 0.9870  Valid Auc: 0.9993
+Epoch 2 - Train Acc: 0.9845  Train Auc: 0.9986  Valid Acc: 0.9870  Valid Auc: 0.9993
+Epoch 2 - Train Acc: 0.9845  Train Auc: 0.9986  Valid Acc: 0.9870  Valid Auc: 0.9993
+Training complete in 0h 50m 33s
+Training complete in 0h 50m 33s
+Training complete in 0h 50m 33s
+Best Score: 0.9993
+Best Score: 0.9993
+Best Score: 0.9993
+========== CV ==========
+========== CV ==========
+========== CV ==========
+CV: 0.9993
+CV: 0.9993
+CV: 0.9993
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'timm_model_name': 'efficientnet_b5.sw_in12k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'image_size': (448, 448), 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'timm_model_name': 'efficientnet_b5.sw_in12k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'image_size': (448, 448), 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'timm_model_name': 'efficientnet_b5.sw_in12k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'image_size': (448, 448), 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+{'DATA_DIR': '/root/signate_tecno/input/', 'OUT_DIR': '/root/signate_tecno/output', 'model_name': 'vit_l_16', 'timm_model_name': 'efficientnet_b5.sw_in12k_ft_in1k', 'pretrained': True, 'n_fold': 2, 'epochs': 2, 'image_size': (448, 448), 'criterion': 'CrossEntropy', 'is_blurry': False, 'train_batch_size': 4, 'test_batch_size': 15, 'seed': 2023, 'optimizer': 'AdamW', 'learning_rate': 1e-05, 'scheduler': 'CosineAnnealingLR', 'min_lr': 1e-06, 'T_max': 500, 'n_accumulate': 1, 'clip_grad_norm': 'None', 'apex': True, 'num_classes': 2, 'device': device(type='cuda', index=0), 'aug_prob': 0.75}
+========== fold: 0 training ==========
+========== fold: 0 training ==========
+Epoch 1 - avg_train_loss: 0.1712  avg_val_loss: 6046.0638
+Epoch 1 - avg_train_loss: 0.1712  avg_val_loss: 6046.0638
+Epoch 1 - Train Acc: 0.9434  Train Auc: 0.9686  Valid Acc: 0.9548  Valid Auc: 0.9751
+Epoch 1 - Train Acc: 0.9434  Train Auc: 0.9686  Valid Acc: 0.9548  Valid Auc: 0.9751
+Epoch 2 - avg_train_loss: 0.0228  avg_val_loss: 109.7646
+Epoch 2 - avg_train_loss: 0.0228  avg_val_loss: 109.7646
+Epoch 2 - Train Acc: 0.9926  Train Auc: 0.9993  Valid Acc: 0.9906  Valid Auc: 0.9992
+Epoch 2 - Train Acc: 0.9926  Train Auc: 0.9993  Valid Acc: 0.9906  Valid Auc: 0.9992
+Training complete in 3h 36m 1s
+Training complete in 3h 36m 1s
+Best Score: 0.9992
+Best Score: 0.9992
+========== fold: 1 training ==========
+========== fold: 1 training ==========
+Epoch 1 - avg_train_loss: 0.1609  avg_val_loss: 2969.0459
+Epoch 1 - avg_train_loss: 0.1609  avg_val_loss: 2969.0459
+Epoch 1 - Train Acc: 0.9463  Train Auc: 0.9696  Valid Acc: 0.9749  Valid Auc: 0.9892
+Epoch 1 - Train Acc: 0.9463  Train Auc: 0.9696  Valid Acc: 0.9749  Valid Auc: 0.9892
+Epoch 2 - avg_train_loss: 0.0219  avg_val_loss: 29.1368
+Epoch 2 - avg_train_loss: 0.0219  avg_val_loss: 29.1368
+Epoch 2 - Train Acc: 0.9923  Train Auc: 0.9993  Valid Acc: 0.9871  Valid Auc: 0.9972
+Epoch 2 - Train Acc: 0.9923  Train Auc: 0.9993  Valid Acc: 0.9871  Valid Auc: 0.9972
+Training complete in 3h 36m 12s
+Training complete in 3h 36m 12s
+Best Score: 0.9972
+Best Score: 0.9972
+========== CV ==========
+========== CV ==========
+CV: 0.9981
+CV: 0.9981
