@@ -4,3 +4,4 @@ input
 ckpt
 logs
 *.bin
+*.pt
